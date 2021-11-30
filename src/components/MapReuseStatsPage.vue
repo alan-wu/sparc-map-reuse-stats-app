@@ -16,8 +16,8 @@
         </el-table-column>
         <el-table-column
           prop="name"
-          label="Name"
-          width="180">
+          label="Package Name"
+          width="280">
         </el-table-column>
         <el-table-column
           prop="download"
