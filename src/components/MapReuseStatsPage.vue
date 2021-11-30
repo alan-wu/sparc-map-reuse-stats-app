@@ -59,6 +59,8 @@ export default {
           return;
         }
         // Examine the text in the response
+        response.json().then(data => {
+          console.log(data)
           data.forEach(element =>{
             element.assets.forEach(asset => {
               let item = {};
